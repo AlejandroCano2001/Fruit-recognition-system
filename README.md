@@ -31,7 +31,7 @@ The execution of this project calls for several packages you need to intall befo
 
 ### Numpy
 
-If you use pip, you can install NumPy with:
+Should you use pip, you can install NumPy with:
 
 ```bash
 pip install numpy
