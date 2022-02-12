@@ -12,7 +12,7 @@ The result will be shown in the top left corner!
 
 I'd like to point out that when it comes to computing the *size* of the piece of fruit, this system ensures **invariance** not only to rotation but to position and distance, as well. For that, we've used a **minimum rotated bounding box** (invariance to rotation) and an **Aruco marker** whose size is known (in this case 5x5 cm). If you want to give it a shot, you can find the Aruco marker that I've used on this repository.
 
-![Aruco marker](./CVProject/Images/aruco.jpeg)
+![Aruco marker](./Code/Images/aruco.jpeg)
 
 In the first place, the size will be computed in *pixels*. Nevertheless, the results are shown in *cm*.
 
@@ -62,4 +62,4 @@ pip install cvzone
 
 Here's an example:
 
-![Aruco marker](./CVProject/Images/Screenshot_1.png)
+![Aruco marker](./Code/Images/Screenshot_1.png)
