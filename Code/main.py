@@ -13,7 +13,7 @@ capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
-classifier = cvzone.Classifier('C:/Alejandro/Universidad/CVProject/Model/keras_model.h5', 'C:/Alejandro/Universidad/CVProject/Model/labels.txt')
+classifier = cvzone.Classifier('./Model/keras_model.h5', './Model/labels.txt')
 
 while True:
 

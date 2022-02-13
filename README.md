@@ -63,3 +63,5 @@ pip install cvzone
 Here's an example:
 
 ![Aruco marker](./Code/Images/Screenshot_1.png)
+
+4.- In order to close the window, just press the *ESC* key on you keyboard.
